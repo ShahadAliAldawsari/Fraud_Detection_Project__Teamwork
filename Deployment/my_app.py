@@ -121,7 +121,7 @@ html_style4 = """
 st.markdown(html_style4,unsafe_allow_html=True)
 # Display the image with rounded corners
 st.markdown(css2, unsafe_allow_html=True)
-image_path4 = 'fr7.png'
+image_path4 = 'Deployment/fr7.png'
 image_html4 = f'<div class="img2"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path4, "rb").read()).decode()}"></div>'
 st.markdown(image_html4, unsafe_allow_html=True)
 # st.markdown("You can implements machine learning models to analyze historical transaction data and identify potential fraud.")
