@@ -54,7 +54,7 @@ css = """
 st.markdown(css, unsafe_allow_html=True)
 
 # Display the image with rounded corners
-image_path = 'fr10.png'
+image_path = 'Deployment/fr10.png'
 image_html = f'<div class="rounded-image"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path, "rb").read()).decode()}"></div>'
 st.markdown(image_html, unsafe_allow_html=True)
 
@@ -284,7 +284,7 @@ try:
             st.markdown(css2, unsafe_allow_html=True)
 
             # Display the image with rounded corners
-            image_path2 = 'fr12.png'
+            image_path2 = 'Deployment/fr12.png'
             image_html2 = f'<div class="rounded-image"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path2, "rb").read()).decode()}"></div>'
             st.markdown(image_html2, unsafe_allow_html=True)
 
@@ -292,7 +292,7 @@ try:
             st.error(f'The Probability is about {(result2[0][1]) * 100} % Fraud')
             st.markdown(css2, unsafe_allow_html=True)
             # Display the image with rounded corners
-            image_path3 = 'fr4.jpg'
+            image_path3 = 'Deployment/fr4.jpg'
             image_html3 = f'<div class="rounded-image"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path3, "rb").read()).decode()}"></div>'
             st.markdown(image_html3, unsafe_allow_html=True)
 
