@@ -147,7 +147,7 @@ st.markdown(html_style7, unsafe_allow_html=True)
 
 
 # Display the image with rounded corners
-image_path2 = 'fr11.png'
+image_path2 = 'Deployment/fr11.png'
 image_html2 = f'<div class="img2"><img src="data:image/jpeg;base64,{base64.b64encode(open(image_path2, "rb").read()).decode()}"></div>'
 st.markdown(image_html2, unsafe_allow_html=True)
 
