@@ -149,7 +149,7 @@ V17 = st.sidebar.number_input(
 
 
 
-filename = "final_model"
+filename = "Deployment/final_model"
 # filename ="RF_model_s"
 model = pickle.load(open(filename, "rb"))
 
